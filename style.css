@@ -1,0 +1,138 @@
+body {
+  background-color: #d9e3fc;
+}
+
+h1 {
+  font-family: Poppins;
+    text-align: center;
+    color: #23456C;
+}
+
+h2 {
+  font-family: Merriweather;
+  color: #23456C;
+  padding-top: 50px;
+}
+
+h3 {
+  font-family: Merriweather;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Poppins;
+}
+
+.main_img_container img {
+  width: 40vw;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.main_container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+ nav ul {
+  list-style-type: none;
+  margin-left: 200px;
+  margin-right:200px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ol {
+  font-family: Poppins;
+  font-size: 14pt;
+}
+
+nav li {
+  float: left;
+  font-family: Poppins;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  font-family: Poppins;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main_img_container img{
+      width: 70vw;
+    }
+
+    h1 {
+      font-size: 18pt;
+    }
+
+    h2 {
+      font-size: 14pt;
+    }
+
+    h3 {
+      font-size: 12pt;
+    }
+
+    p {
+      font-size: 9pt;
+    }
+
+    li {
+      font-size: 9pt;
+    }
+
+    .main_container {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+
+    nav ul {
+      margin-left: 25px;
+      margin-right: 25px;
+      width: 180px;
+
+    }
+
+    nav li a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    nav li {
+      font-size: 9px;
+    }

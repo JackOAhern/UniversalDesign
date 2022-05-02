@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universal Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+
+<body>
+  <header>
+    <h1>Universal Design</h1>
+  </header>
+  <nav>
+    <h2 class="sr-only">Nav Bar</h2>
+    <ul>
+      <li><a href="index.html" >Universal Design</a></li>
+      <li><a href="#Importance">Importance of Accesible Design</a></li>
+      <li><a href="#Methods">Universal Design Methods</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="main_img_container">
+      <img src="UDphoto.png" alt="Photo showing a disabled user using a computer">
+    </div>
+    <div class="main_container">
+      <section id="What">
+        <h2>What is Universal Design?</h2>
+        <p>Universal Design considers all possible users, no matter their condidtion. "Instead of pretending that hidden away in a vault somewhere is a perfectly normal brain, to which all other brains should be compared, we need to admit that there
+          is no standard brain, just as there is no standard flower, or standard cultural group" (Thomas Armstrong). We as a society need to design for all types of brains and bodies. Diversity is a natural part of life and universal designers find
+          ways to create accessible products for all types of beings. Accessibility is a quality. Everyone has a certain limit to what they can physically accomplish and mentally comprenhend. Good accessibility is designed for the entire range of
+          capabilities (Sarah Horton).</p>
+      </section>
+      <section id="Principles">
+        <h2>The Principles of Universal Design</h2>
+        <ol>
+          <li><u><strong>Equitable Use</strong></u></li>
+            <ul>
+              <li>The design provides the same means of use for all users.</li>
+            </ul>
+          <li><u><strong>Flexibility in Use</strong></u></li>
+            <ul>
+              <li>The design accommodates a wide range of individual preferences and abilities.</li>
+            </ul>
+          <li><u><strong>Simple and Intuitive Use</strong></u></li>
+            <ul>
+              <li>The design is easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level.</li>
+            </ul>
+          <li><u><strong>Perceptible Information</strong></u></li>
+            <ul>
+              <li>The design communicates necessary information effectively to the user, regardless of ambient conditions or the user's sensory abilities.</li>
+            </ul>
+          <li><u><strong>Tolerance for Error</strong></u></li>
+            <ul>
+              <li>The design minimizes hazards and the adverse consequences of accidental or unintended actions.</li>
+            </ul>
+          <li><u><strong>Low Physical Effort</strong></u></li>
+            <ul>
+              <li>The design can be used efficiently and comfortably and with a minimum of fatigue.</li>
+            </ul>
+          <li><u><strong>Size and Space for Approach and Use</strong></u></li>
+            <ul>
+              <li>Appropriate size and space is provided for approach, reach, manipulation, and use regardless of user's body size, posture, or mobility.</li>
+            </ul>
+          </ol>
+          <p><a href="https://universaldesign.ie/What-is-Universal-Design/The-7-Principles/" target="_blank">NDA (National Disability Authority)</a></p>
+      </section>
+      <section id="Importance">
+        <h2>The Importance of Accessible Design</h2>
+        <p>A disability is simply a condition that makes it difficult or even impossible to do something that one could easily do without the condition. Over 61-million people in the United States live with a dissability. If you don't personally have a disability, then you probably know someone close to you that does. There are many different types of disabilities and it is important that we are aware and understand each of them. Universal Designers study each disability and consider how to create designs that will work for all groups.</p>
+        <p>There are many different types of disabilities. Linked <a href="https://www.nds.org.au/disability-types-and-descriptions" target="_blank">Here, you can read over a full description of the varying types of disabilities.</a></p>
+        <p>The internet is an extremely important resource for many aspects of our daily life. As each year passes, more of our daily time is spent on the internet than the last. It is crucial that we make the internet as accessible as possible to create equal oppurtunity for people with diabilities.</p>
+
+      </section>
+      <section id="Methods">
+        <h2>Universal Design Methods</h2>
+        <p>Any website can be made accessible to users of assistive technologies, it is just a matter of implementing extra care on the back-end. Here are some great examples of accessible design methods.</p>
+        <h3>Semantic HTML</h3>
+        <p>Semantic HTML is HTML code that says what it does. The HTML tags convey specific purposes of the respective element. It is important for web designers to know the semantic HTML structure and use tags appropriately. This matters significantly to users who use screen readers. It is also very important that designers structure their HTML code carefully because screen readers process pages in a linear matter. Use all tags carefully and keep tags in order of importance when possible (h1, h2, h3...).</p>
+        <h3>Image Alt Text</h3>
+        <p>Alt text is especially important for those using screen readers and for those who cannot see your images for any reason. When a screen reader comes upon alt text, it reads it to the user since they can not view the imag. It is a really good practice to provide context for all images because if you don't have any alt text, the user using a screen reader will miss out on the picture's purpose entirely. It is super easy to add alt text to your pictures. You can place the "alt" attribute inside the "img" tag.</p>
+        <h3>ARIA (Accessible Rich Internet Applications)</h3>
+        <p>The Accesible Rich internet Applications (ARIA) are a set of standards to make user interface controls more accessible for users using assistive technologies. The ARIA documentation shows how to use HTML attributes, called ARIA roles, which specify the funciton of a particular element for screen reader users who may not be able to understand the purpose of an element. ARIA is quite complex, and I reccomend designers read through and revert back to the <a href="https://www.w3.org/TR/wai-aria-1.1/" target="_blank">ARIA documentation</a> when designing websites. </p>
+        <h3>Color Blind Friendly Colors</h3>
+        <p>We all love colors. One very easy and important step when creating a website is to use a color blind firendly colorscheme. You can run a quick google search to check if the colors you are using are color blind friendly, or you can take advantage of online programs like <a href="https://coolors.co/" target="_blank">Coolors</a> to create color blind safe schemes and even view them as if you were color blind.</p>
+        <h3>Accessibility Tools</h3>
+        <p>After you have the methods mentioned above implemented into your code, it is always a great measure to run your code through an accessibility testing tool. There are many tools on the market, but I reccomend <a href="https://wave.webaim.org/" target="_blank">WAVE</a> (Web Accesibility Evaluation Tool)</p>
+
+      </section>
+
+
+    </div>
+  </main>
+  <footer>
+    <small>Designed by Jack Ahern | ATLS-3150 | University of Colorado Boulder</small>
+  </footer>
+</body>
+
+</html>
